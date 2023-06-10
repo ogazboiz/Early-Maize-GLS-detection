@@ -1,0 +1,5 @@
+# does not ignore the README.md file
+!README.md
+**node_modules
+.env
+/training/.ipynb_checkpoints
