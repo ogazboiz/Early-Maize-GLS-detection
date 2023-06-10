@@ -1,5 +1,10 @@
 # does not ignore the README.md file
 !README.md
+.vscode
+.pycharm
+__pycache__
+.idea
+.ipynb_checkpoints
 **node_modules
 .env
 /training/.ipynb_checkpoints
