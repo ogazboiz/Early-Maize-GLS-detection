@@ -8,8 +8,8 @@ using machine learning
 2. Install Python packages
 
 ```
-pip3 install -r training/requirements.txt
-pip3 install -r api/requirements.txt
+pip install -r training/requirements.txt
+pip install -r api/requirements.txt
 ```
 
 3. Install Tensorflow Serving ([Setup instructions](https://www.tensorflow.org/tfx/serving/setup))
