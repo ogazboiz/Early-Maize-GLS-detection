@@ -25,9 +25,7 @@ def read_file_as_image(data) -> np.ndarray:
 
 
 @app.post("/predict")
-async def predict(
-    file: UploadFile = File(...)
-):
+async def predict(file: UploadFile = File(...)):
     image = read_file_as_image(await file.read())
     img_batch = np.expand_dims(image, 0)
 

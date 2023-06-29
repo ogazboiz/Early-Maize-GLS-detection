@@ -251,7 +251,7 @@ export const ImageUpload = () => {
                   <Table className={classes.table} size="small" aria-label="simple table">
                     <TableHead className={classes.tableHead}>
                       <TableRow className={classes.tableRow}>
-                        <TableCell className={classes.tableCell1}>Label:</TableCell>
+                        <TableCell className={classes.tableCell1}>Condition:</TableCell>
                         <TableCell align="right" className={classes.tableCell1}>Confidence:</TableCell>
                       </TableRow>
                     </TableHead>
